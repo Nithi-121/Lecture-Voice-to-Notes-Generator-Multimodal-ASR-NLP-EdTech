@@ -379,8 +379,8 @@ Built with ❤️ for the EdTech community.
 
 ## 📧 Contact & Support
 
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [your-linkedin-profile]
+- 📧 Email: nithi41124113@gmail.com
+- 💼 LinkedIn: linkedin.com/in/nithin-p-054947365
 - 🐙 GitHub: [@Nithi-121](https://github.com/Nithi-121)
 
 **Questions?** Open an issue or discussion in the repository!
