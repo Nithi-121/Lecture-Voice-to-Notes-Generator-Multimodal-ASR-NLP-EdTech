@@ -1,0 +1,4 @@
+project_id = "wwnghyhvjbpyajdkdbvz"
+
+[functions.lectures]
+verify_jwt = false

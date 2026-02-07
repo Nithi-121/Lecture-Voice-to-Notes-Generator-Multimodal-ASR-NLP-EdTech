@@ -1,0 +1,29 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# MongoDB
+motor>=3.3.2
+pymongo>=4.6.1
+
+# Data validation
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+
+# AI/ML - ASR (using FasterWhisper for better performance)
+faster-whisper>=1.0.0
+
+# AI/ML - NLP
+transformers>=4.36.2
+torch>=2.0.0
+sentencepiece>=0.1.99
+protobuf>=4.25.2
+
+# AI/ML - OpenAI (Optional)
+openai>=1.12.0
+python-dotenv>=1.0.0
+aiofiles>=23.2.1
+
+# Optional: for better audio handling
+ffmpeg-python>=0.2.0
