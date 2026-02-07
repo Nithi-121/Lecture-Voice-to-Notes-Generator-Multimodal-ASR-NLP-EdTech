@@ -37,12 +37,15 @@ Thumbs.db
 
 # Uploads and temporary files
 uploads/
-*.mp3
-*.wav
-*.mp4
-*.m4a
-*.ogg
-*.flac
+# Note: Media files are now included in the repository
+# Uncomment the lines below if you want to exclude them:
+# *.mp3
+# *.wav
+# *.mp4
+# *.m4a
+# *.ogg
+# *.flac
+
 
 # Model cache
 .cache/
@@ -61,4 +64,4 @@ coverage/
 
 # Misc
 *.zip
-bun.lockb
+
