@@ -19,6 +19,18 @@ Lecture Voice-to-Notes Generator converts long classroom lectures into structure
 
 ## 🏗️ Architecture Overview
 
+```mermaid
+graph TD
+  User[User] -->|Upload Audio| Frontend[React Frontend]
+  Frontend -->|POST /upload| Backend[FastAPI Backend]
+  Backend -->|Process Audio| ASR[FasterWhisper Model]
+  ASR -->|Transcript| NLP[BART Summarizer]
+  NLP -->|Summary & Key Points| DB[(MongoDB)]
+  Backend -->|JSON Response| Frontend
+  Frontend -->|Display Notes| User
+```
+
+
 The system follows a client–server architecture with an AI-powered processing pipeline on the backend.
 
 1. User uploads lecture audio (and optionally supporting materials) from the React frontend.
